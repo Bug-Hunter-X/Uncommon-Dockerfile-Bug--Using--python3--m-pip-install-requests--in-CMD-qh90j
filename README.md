@@ -1,0 +1,1 @@
+This repository demonstrates a common mistake in Dockerfiles: using `python3 -m pip install requests` in the CMD instruction.  This installs the package, but doesn't run the application. The solution shows the correct way to build and run a python app in a docker container.
